@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bap er Bank</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="max-w-screen-xl mx-auto mt-8">
+    <header>
+      <h1 class="text-5xl text-center">
+        Welcome to
+        <span class="uppercase font-bold text-red-600">bap er hotel</span>
+      </h1>
+    </header>
+    <main>
+      <section class="bg-cyan-500 mt-20 mx-auto w-3/4 p-14 rounded-2xl">
+        <div class="m-auto">
+          <h1 class="font-bold text-2xl mb-4 text-white">
+            Please enter login information
+          </h1>
+          <input
+            class="block w-3/4 p-2 mb-3 rounded-lg"
+            type="email"
+            name=""
+            id="user-mail"
+            placeholder="Please enter your email address"
+          />
+          <input
+            class="block w-3/4 p-2 mb-3 rounded-lg"
+            type="password"
+            name=""
+            id="user-pw"
+            placeholder="Please enter your password"
+          />
+          <button
+            id="btn-login"
+            class="bg-pink-500 px-4 py-2 rounded-lg text-white hover:bg-red-400"
+          >
+            Login
+          </button>
+        </div>
+      </section>
+    </main>
+    <script src="login.js"></script>
+  </body>
+</html>
